@@ -15,6 +15,11 @@
 		901501B91A272F8000E7523A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901501B81A272F8000E7523A /* Images.xcassets */; };
 		901501BC1A272F8000E7523A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901501BA1A272F8000E7523A /* LaunchScreen.xib */; };
 		901501C81A272F8000E7523A /* Flappy_birdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901501C71A272F8000E7523A /* Flappy_birdTests.swift */; };
+		901501D71A27317000E7523A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 901501D21A27317000E7523A /* bg.png */; };
+		901501D81A27317000E7523A /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 901501D31A27317000E7523A /* flappy1.png */; };
+		901501D91A27317000E7523A /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 901501D41A27317000E7523A /* flappy2.png */; };
+		901501DA1A27317000E7523A /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 901501D51A27317000E7523A /* pipe1.png */; };
+		901501DB1A27317000E7523A /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 901501D61A27317000E7523A /* pipe2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		901501C11A272F8000E7523A /* Flappy birdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy birdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		901501C61A272F8000E7523A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		901501C71A272F8000E7523A /* Flappy_birdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_birdTests.swift; sourceTree = "<group>"; };
+		901501D21A27317000E7523A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		901501D31A27317000E7523A /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy1.png; sourceTree = "<group>"; };
+		901501D41A27317000E7523A /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy2.png; sourceTree = "<group>"; };
+		901501D51A27317000E7523A /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
+		901501D61A27317000E7523A /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 			children = (
 				901501AD1A272F8000E7523A /* AppDelegate.swift */,
 				901501AF1A272F8000E7523A /* GameScene.sks */,
+				901501D11A27317000E7523A /* img */,
 				901501B11A272F8000E7523A /* GameScene.swift */,
 				901501B31A272F8000E7523A /* GameViewController.swift */,
 				901501B51A272F8000E7523A /* Main.storyboard */,
@@ -116,6 +127,18 @@
 				901501C61A272F8000E7523A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		901501D11A27317000E7523A /* img */ = {
+			isa = PBXGroup;
+			children = (
+				901501D21A27317000E7523A /* bg.png */,
+				901501D31A27317000E7523A /* flappy1.png */,
+				901501D41A27317000E7523A /* flappy2.png */,
+				901501D51A27317000E7523A /* pipe1.png */,
+				901501D61A27317000E7523A /* pipe2.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +221,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901501D91A27317000E7523A /* flappy2.png in Resources */,
+				901501D71A27317000E7523A /* bg.png in Resources */,
 				901501BC1A272F8000E7523A /* LaunchScreen.xib in Resources */,
+				901501DA1A27317000E7523A /* pipe1.png in Resources */,
 				901501B91A272F8000E7523A /* Images.xcassets in Resources */,
+				901501DB1A27317000E7523A /* pipe2.png in Resources */,
 				901501B01A272F8000E7523A /* GameScene.sks in Resources */,
 				901501B71A272F8000E7523A /* Main.storyboard in Resources */,
+				901501D81A27317000E7523A /* flappy1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
